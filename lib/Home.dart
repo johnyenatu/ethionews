@@ -78,13 +78,16 @@ void LanguageCahnged(relation){
                 onTap: () {},
                 child: DropdownButton<String>(
                   items: <String>[
-                    'Amharic',
-                    'Oromifa',
-                    'Tigrigna',
+                    'አማ',
+                    'Or',
+                    'ትግ',
                   ].map((String value) {
                     return DropdownMenuItem<String>(
                       value: value,
-                      child: Text(value),
+                      child: Text(value,
+                      style: TextStyle(
+                        color: Colors.white
+                      ),),
                     );
                   }).toList(),
                   onChanged: (String newRelation) {

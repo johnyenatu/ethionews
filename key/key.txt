@@ -1,0 +1,5 @@
+
+
+Key store password= instant
+key alias=key0
+keypassword =instant
